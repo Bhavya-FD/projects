@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* header */
+.container00{
+    background-color: #ebe3cd;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 33px;
+    background-color: #12202f;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #6bb99c;
+}
+.col-50{
+    width: 50%;
+    margin: 30px;
+    padding:70px 40px;
+    font-size: 25px;
+}
+.col-50 h3,p{
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-size: 22px;
+}
+.col-50 p{
+    font-size: 20px;
+}
+.orange{
+    font-family: sans-serif;
+    display: flex;
+    gap:30px ;
+    margin-top: 25px;
+}
+.orange p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.orange button{
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 28px;
+    background-color: #df581e;
+    margin-bottom: 100px;
+}
+#Ilustration{
+    /* width: 65%; */
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    z-index: 3;
+}
+#Lamp{
+    position: absolute;
+    top: 60px;
+    right: 350px;
+    /* width: 5%; */
+}
+#Plant{
+    position: absolute;
+    top: 458px;
+    right: 810px;
+}
+#Window1{
+    position: absolute;
+    top: 220px;
+    right: 580px;
+    z-index: 2;
+}
+#Window2{
+    position: absolute;
+    top: 220px;
+    right: 120px;
+}
+.images+p{
+    padding:50px 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.select{
+    display: flex;
+    justify-content: left;
+    /* gap: 120px; */
+    padding:0 0 10px 10px;
+}
+select{
+    margin-right: 120px;
+}
+.white{
+    border-radius: 40px;
+    background-color: #faf8ef;
+    padding: 40px 80px ;
+    margin: 50px;
+}
+.box{
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.date{
+    border-radius: 25px;
+    background-color: #ebe3cd;
+    border: 1px solid #12202f;
+    padding: 20px 30px;
+}
+.check{
+    border-radius: 28px;
+    background-color: #6bb99c;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 26%;
+}
+/* header ends */
+/* Section 1 starts */
+section{
+    background-color: #ebe3cd;
+}
+.wrapper2{
+    text-align: center;
+}
+.wrapper2>p{
+    color: #eaa73b;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+div[class*="card"]{
+    border-radius: 40px;
+    filter: drop-shadow(-5.557px 5.755px 0px rgba(150,137,104,0.09));
+    background-color: #faf8ef;
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    font-size: 25px;
+    padding: 20px;
+}
+.food p{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+.wrapper2 button{
+    font-size: 15px;
+    background-color: #df581e;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+/* Section 1 ends */
+
+/* Section 2 starts */
+section{
+    padding-bottom: 150px;
+}
+.container02{
+    padding-bottom: 50px;
+    
+}
+.wrapper3{
+    position: relative;
+    padding-bottom: 100px;
+}
+.protocol{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 150px;
+    line-height: 40px;
+}
+.protocol p{
+    font-weight: 600;
+    color: #6bb99c;
+}
+.protocol h3{
+    font-size: 35px;
+    padding: 0;
+}
+.protocol button{
+    font-size: 20px;
+    background-color: #6bb99c;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: 10px ;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+.Ilustration2{
+    position: absolute;
+    top: 350px;
+    left: 370px;
+    z-index: 2;
+}
+.Table1{
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    z-index: 1;
+}
+.Table2{
+    position: absolute;
+    top: 420px;
+    right: 20px;
+    z-index: 1;
+}
+.Table3{
+    position: absolute;
+    top: 20px;
+    left: -110px;
+}
+.Table4{
+    position:absolute;
+    top: 20px;
+    right: -110px;
+}
+/* section2 ends */
+
+/* section3 starts */
+.wrapper4{
+    padding: 400px 100px 100px 100px ;
+    position: relative;
+}
+div[class*=col-4]{
+    width: 34%;
+}
+div[class*=col-4]>h4{
+    color:#eaa73b;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+div[class*=col-4]>h3{
+    padding: 0;
+    font-size: 30px;
+}
+.col-40>button{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding:10px 25px;
+    border-radius: 28px;
+    background-color: #df581e;
+}
+.bottels{
+    position: absolute;
+    top: 240px;
+    left: 580px;
+}
+.customers{
+    position: absolute;
+    width: 43%;
+    top: 380px;
+    left: 680px;
+}
+.Plants{
+    position: absolute;
+    top: 190px;
+    right: 50px;
+}
+/* section3 ends */
+
+/* section4 starts */
+.wrapper5{
+    display: flex;
+}
+.Ilustration_fish{
+    width: 80%;
+    padding-left: 100px;
+}
+.col-41{
+    margin-top: 50px;
+}
+.col-41>button{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding:10px 25px;
+    border-radius: 28px;
+    background-color: #6bb99c;
+}
+/* section4 ends */
+
+
+/* section5 starts */

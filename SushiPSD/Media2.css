@@ -1,0 +1,206 @@
+/* media Query for max-width 768px */
+
+@media (max-width: 768px) { 
+    /* media query header starts here */
+
+    .toolbar{
+        margin-bottom: 68px;
+        font-size: 18px;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .toolbar>ul{
+        gap: 27px;
+        left: 250px;
+    }
+    .col-50{
+        padding:50px 0 60px 30px ;
+        font-size: 20px;
+    }
+    h1{
+        font-size:60px;
+    }
+    .col-50 h1,p{
+        padding-bottom: 15px;
+    }
+    
+    /* media query header ends here */
+
+    /* media query section1 starts here */
+    
+    .container{
+        padding-bottom: 10px;
+
+    }
+    .popular{
+        font-size: 20px;
+        padding: 40px 0 10px 0;
+    }
+    .popular p{
+        padding-top: 0px;
+    }
+    .sushi{
+        font-size: 17px;
+        gap: 0px;
+    }
+    div[class*="card"]{
+        width: 40%;
+        padding: 0 px;
+    }
+    .popular h2{
+        font-size: 30px;
+    }
+    div[class*="image"]{
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+    .shape1{
+        top: -15px;
+        right: -60px;
+    }
+    .shape2{
+        bottom: 20px;
+        right: 30px;
+    }
+    .shape3{
+        top: 700px;
+        left: 20px;
+    }
+    .shape5{
+        top: -15px;
+        left: 100px;
+    }
+    /* media query section1 ends here */
+
+    /* media query section2 starts here */
+
+    .wrapper01{
+        margin:30px 0;
+        font-size: 20px;
+    
+    }
+    div[class*="circle"]{
+        height: 250px;
+        width: 250px;
+    }
+    .fifty h2{
+        font-size: 40px;
+    }
+    .fifty h2,p,button{
+        margin-top: 15px;
+    }
+    .s1{
+    display: none;
+    }
+    .s3{
+        top: 50px;
+        left: 50px;
+    }
+    .s5{
+        position: absolute;
+        bottom: -30px;
+        right: -50px;
+    }
+
+    /* media query section2 ends here */
+
+    /* media query section3 starts here */
+
+    .container3{
+        padding-bottom: 40px;
+    }
+    .maintext{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .maintext h2{
+        font-size: 38px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .col-33{
+        height: 150px;
+        width: 150px;
+    }
+    .A3{
+        bottom: 70px;
+        right: 70px;
+    }
+    .A6{
+    display: none;
+    }
+
+    /* media query section3 ends here */
+
+    /* media query section4 starts here */
+
+    .B2{
+        top: -20px;
+        left: 70px;
+    }
+    .B3{
+    display: none;
+    }
+    .B4{
+        top: 20px;
+        left:530px;
+    }
+    /* media query section4 ends here */
+
+    /* media query section5 starts here */
+
+    .girl{
+        margin: 20px auto;
+    }
+    .opacity{
+        padding: 50px;
+    }
+    .barry h5{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .barry p{
+        font-size: 18px;
+    } 
+
+    /* media query section5 ends here */
+
+    /* media query section6 starts here */
+
+    .update h4{
+        font-size: 50px;
+    }
+    .update p{
+        font-size: 20px;
+    }
+    .update input{
+        bottom: 150px;
+        left: 190px;
+    }
+    .update button{
+        bottom: 100px;
+        right: 180px;
+    }
+    .c1{
+        display: none;
+    }
+    .c5{
+        bottom: -20px;
+        left: 630px;
+    }
+
+    /* media query section6 ends here */
+
+    /* media query footer starts here */
+
+    .container5{
+        padding: 70px 0;
+        font-size: 15px;
+    }
+
+    /* media query footer ends here */
+
+
+}
