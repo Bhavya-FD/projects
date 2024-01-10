@@ -1,0 +1,219 @@
+@media (max-width: 576px){
+    header{
+        overflow: hidden;
+    }
+    .container{
+        background: url(../Burgerweb/Image/HomeBackground_media.png) no-repeat center center/cover;
+        padding-bottom: 0px;
+        margin: 0;
+        width: 100%;
+        padding-right: 0;
+    }
+    nav{
+        padding: 0px;
+        margin: 0 auto;
+        justify-content: left;
+    }
+    #bar{
+    background: url(../Burgerweb/Image/bars-solid.svg);
+    } 
+    .home{
+    display: none;
+    }
+    .col-50{
+        width: 100%;
+        padding: 0;
+    }
+    .heading{
+        text-align:left;
+        /* padding-left: 20px; */
+        font-size: 30px;
+    }
+    .para{
+        display: none;
+    }
+    #button1{
+        width: 180px;
+        height: 50px;
+        margin-top: 0px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    /* section1 */
+    .maintext1 p{
+        padding: 0 70px;
+        z-index: 4;
+    }
+    .flex{
+        gap: 50px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Burger{
+        position: absolute;
+        top: 600px;
+        right: 10px;
+        z-index: 5;
+    }
+    .garlic{
+        position: absolute;
+        top: 20px;
+        left:20px;
+    }
+    .Mushroom{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+    .Leaf{
+        position: absolute;
+        bottom: 100px;
+        left: 40px;
+    }
+    .pepper{
+        position: absolute;
+        right: 20px;
+        top: 200px;
+    }
+    .fries{
+        position: absolute;
+        top: 450px;
+        left: 10px;
+    }
+    /* section2 */
+    .wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image{
+        margin-left: 120px;
+    }
+    /* section3 */
+    #unique{
+        flex-direction: column-reverse;
+    }
+    .Leaf1{
+        position: absolute;
+        top: 500px;
+        right: 0px;
+    }
+    .Burger1{
+        position: absolute;
+        top: 0px;
+        left: 380px;
+    }
+    .Mushroom1{
+        position: absolute;
+        bottom: 450px;
+        right: 480px;
+    }
+    .garlic1{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .fries1{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    .pepper1{
+        position: absolute;
+        top: 50px;
+        left: 0px;
+    }
+    /* section4 */
+    .maintext2{
+        padding: 20px 50px;
+    }
+    /* section5 */
+    .pop1{
+        flex-direction: column;
+        margin: 0;
+    }
+    .Burger2{
+        position: absolute;
+        top: 700px;
+        right: 370px;
+        z-index: 0;
+    }
+    .garlic2{
+        position: absolute;
+        top: 80px;
+        right: 20px;
+    }
+    .Leaf2{
+        position: absolute;
+        top: 500px;
+        left: 420px;
+    }
+    .Mushroom2{
+        position: absolute;
+        left: 20px;
+        bottom: 60px;
+    }
+    .pepper2{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+    .fries2{
+        position: absolute;
+        bottom: 140px;
+        right: 50px;
+        z-index: 0;
+    }
+    /* section7 */
+    .update input{
+        font-size: 10px;
+        padding: 10px 45px 10px 20px;
+    }
+    .update button{
+        font-size: 10px;
+        padding: 10px 25px;
+    }
+    .Burger3{
+        position: absolute;
+        top: 0px;
+        right: 380px;
+    }
+    .garlic3{
+        position: absolute;
+        right: 0px;
+        bottom: 250px;
+    }
+    .Leaf3{
+        display: none;
+    }
+    
+    .Mushroom3{
+        position: absolute;
+        left: 0px;
+        top: 300px;
+    }
+    .fries3{
+        position: absolute;
+        bottom: 0px;
+        left: 420px;
+    }
+    .pepper4{
+        position: absolute;
+        top: 100px;
+        right:30px;
+    }
+    .Leaf4{
+        position: absolute;
+        bottom: 120px;
+        left: 270px;
+    }
+    .pepper3{
+        position: absolute;
+        bottom: 20px;
+        right: 450px;
+    }
+    /* footer */
+    .container4{
+        font-size: 15px;
+        padding: 0 30px;
+    }
+}
