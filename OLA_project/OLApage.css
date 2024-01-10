@@ -1,0 +1,96 @@
+
+/* *{box-sizing: border-box; */
+/* margin: 0px; */
+/* padding: 0px;} */
+
+
+.class{height: 900px;}
+
+.Global{
+    font-size: 50px;
+    text-align: center;
+     text-shadow: 1px 0px 1px green 
+}
+.images{display: flex;
+    padding-left: 400px;
+    gap: 250px;
+    text-align: center;
+}
+
+ .cities{ 
+/* width:100%;  */
+/* padding-left: 300px; */
+gap: 20px; 
+}
+.text{font-size: 40px;
+text-align: center;
+
+}
+.India{font-size: 20px;
+text-align: center;} 
+
+.color{
+    background-color: black;
+    height: 1500px;
+    /* color: white; */
+    /* font-size: 50px; */
+    /* text-shadow: 1px 0px 1px lawngreen; */
+    /* padding-top: 200px; */
+    /* text-align: center; */
+    padding-left: 300px;
+
+}
+.ola{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 0px 1px lawngreen;
+    padding-top: 200px;
+    
+}
+.with{color: white;
+font-size: 25px;
+height: 150px;}
+
+
+
+.box1{height: 150px;
+    width: 150px;
+     background-color: rgb(32, 31, 33);
+     text-align: center; 
+     font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    border: solid;
+}
+    .box2{height: 150px;
+        width: 150px;
+        text-align: center;
+         background-color: rgb(32, 31, 33); 
+        color: white;
+        border: solid;
+        font-size: 20px;
+        padding-top: 20px;}
+        .box3{height: 150px;
+            width: 150px;
+             background-color: rgb(32, 31, 33); 
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+             border: solid;}
+            .more1{
+                color: lime;
+
+            }
+            .Box{
+                display: flex;
+                gap: 95px;
+                
+            }
+            .tarun{
+                font-size: 30px;
+            }
+            .charger{margin-top: 50px};
+            .margin{
+                margin-top: 30px;
+            }
