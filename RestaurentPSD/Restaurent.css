@@ -303,5 +303,29 @@ div[class*=col-4]>h3{
 }
 /* section4 ends */
 
+/* footer starts here */
 
-/* section5 starts */
+.container5{
+    background-color: #222222;
+    font-size: 22px;
+    padding: 100px 0;
+    color: #ffffff;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.icon{
+    padding-top: 15px;
+}
+.footer{
+    padding: 70px 0;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+/* footer ends here */
